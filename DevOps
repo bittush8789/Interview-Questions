@@ -1,0 +1,457 @@
+# DevOps Engineer Interview Roadmap (2–3 YOE)
+
+## 1. Linux & System Administration
+
+### Linux Fundamentals
+- Linux File System
+- File Permissions
+- Users & Groups
+- Process Management
+- Package Management
+- Systemd
+- Cron Jobs
+
+### Commands
+- ls
+- cd
+- pwd
+- cp
+- mv
+- rm
+- chmod
+- chown
+- grep
+- awk
+- sed
+- find
+- xargs
+- sort
+- cut
+- tr
+
+### Troubleshooting
+- top
+- htop
+- ps
+- netstat
+- ss
+- lsof
+- journalctl
+- dmesg
+
+---
+
+# 2. Networking
+
+## Fundamentals
+- OSI Model
+- TCP/IP Model
+- DNS
+- DHCP
+- HTTP
+- HTTPS
+- SSL/TLS
+- VPN
+
+## Networking Concepts
+- IP Addressing
+- CIDR
+- Subnetting
+- NAT
+- Load Balancer
+- Reverse Proxy
+
+## Troubleshooting
+- ping
+- traceroute
+- telnet
+- nslookup
+- dig
+- curl
+
+---
+
+# 3. Git
+
+## Core Concepts
+- Repository
+- Commit
+- Branch
+- Merge
+- Pull Request
+
+## Commands
+- clone
+- add
+- commit
+- push
+- pull
+- fetch
+- merge
+
+## Advanced Git
+- Rebase
+- Cherry Pick
+- Tags
+- Revert
+- Reset
+- Git Workflows
+
+---
+
+# 4. Shell Scripting
+
+## Bash Scripting
+- Variables
+- Loops
+- Conditions
+- Functions
+- Arrays
+
+## Automation
+- File Automation
+- Log Parsing
+- Backup Scripts
+- Health Check Scripts
+
+---
+
+# 5. CI/CD
+
+## Jenkins
+- Pipelines
+- Shared Libraries
+- Agents
+- Distributed Builds
+
+## GitHub Actions
+- Workflows
+- Secrets
+- Self Hosted Runners
+
+## Concepts
+- Continuous Integration
+- Continuous Delivery
+- Continuous Deployment
+
+---
+
+# 6. Docker
+
+## Fundamentals
+- Docker Architecture
+- Images
+- Containers
+- Dockerfile
+- Docker Registry
+
+## Commands
+- build
+- run
+- exec
+- logs
+- inspect
+
+## Advanced
+- Multi-stage Builds
+- Docker Compose
+- Image Optimization
+
+---
+
+# 7. Kubernetes
+
+## Core Concepts
+- Pods
+- Deployments
+- ReplicaSets
+- StatefulSets
+- DaemonSets
+
+## Networking
+- Services
+- Ingress
+- Network Policies
+
+## Storage
+- Persistent Volumes
+- PVC
+- Storage Classes
+
+## Security
+- RBAC
+- Service Accounts
+- Secrets
+
+## Scaling
+- HPA
+- VPA
+- Cluster Autoscaler
+
+## Troubleshooting
+- CrashLoopBackOff
+- ImagePullBackOff
+- Pending Pods
+- OOMKilled
+
+---
+
+# 8. Helm
+
+## Concepts
+- Charts
+- Templates
+- Values.yaml
+- Releases
+- Repositories
+
+## Commands
+- install
+- upgrade
+- rollback
+- uninstall
+
+---
+
+# 9. Cloud Computing (AWS)
+
+## Core Services
+- EC2
+- IAM
+- VPC
+- Route53
+- S3
+- ELB
+
+## Containers
+- ECS
+- EKS
+
+## Security
+- IAM Roles
+- Security Groups
+- NACLs
+
+## Monitoring
+- CloudWatch
+- CloudTrail
+
+---
+
+# 10. Infrastructure as Code (Terraform)
+
+## Fundamentals
+- Providers
+- Resources
+- Variables
+- Outputs
+- Modules
+
+## State Management
+- Terraform State
+- Remote State
+- State Locking
+
+## Advanced
+- Workspaces
+- Provisioners
+- Data Sources
+
+---
+
+# 11. Configuration Management
+
+## Ansible
+- Inventory
+- Playbooks
+- Roles
+- Variables
+- Templates
+
+## Advanced
+- Dynamic Inventory
+- Ansible Vault
+
+---
+
+# 12. Monitoring & Observability
+
+## Prometheus
+- Metrics
+- Exporters
+- Alertmanager
+
+## Grafana
+- Dashboards
+- Alerts
+
+## Logging
+- ELK Stack
+- Loki
+
+## Tracing
+- OpenTelemetry
+- Jaeger
+
+---
+
+# 13. DevSecOps
+
+## Security Tools
+- Trivy
+- SonarQube
+- Gitleaks
+
+## Concepts
+- SAST
+- DAST
+- Dependency Scanning
+- Container Security
+
+---
+
+# 14. Python for DevOps
+
+## Topics
+- File Handling
+- API Calls
+- JSON Processing
+- Automation Scripts
+
+## Libraries
+- Requests
+- Boto3
+- Paramiko
+
+---
+
+# 15. Database Basics
+
+## SQL
+- Joins
+- Indexing
+- Query Optimization
+
+## Databases
+- MySQL
+- PostgreSQL
+- Redis
+
+---
+
+# 16. GitOps
+
+## Concepts
+- Desired State
+- Reconciliation
+
+## Tools
+- ArgoCD
+- FluxCD
+
+---
+
+# 17. DevOps System Design
+
+## Design Questions
+- Design a CI/CD Pipeline
+- Design a Highly Available Application
+- Design a Kubernetes Platform
+- Design a Monitoring Solution
+- Design a GitOps Workflow
+
+## Architecture Components
+- Source Control
+- CI/CD
+- Container Registry
+- Kubernetes
+- Monitoring
+- Logging
+
+---
+
+# 18. Production Troubleshooting
+
+## Linux
+- High CPU Usage
+- High Memory Usage
+- Disk Full Issues
+
+## Kubernetes
+- Pod Not Starting
+- Service Not Reachable
+- Ingress Issues
+
+## AWS
+- EC2 Unreachable
+- Load Balancer Issues
+- IAM Permission Errors
+
+## CI/CD
+- Build Failure
+- Deployment Failure
+- Rollback Strategy
+
+---
+
+# Practical Tasks Asked in Interviews
+
+### Linux
+- Find top 10 memory-consuming processes
+- Kill process running on port 8080
+- Create users and groups
+
+### Git
+- Revert a commit
+- Resolve merge conflicts
+
+### Docker
+- Write a Dockerfile for Python application
+- Optimize Docker image size
+
+### Kubernetes
+- Deploy Nginx application
+- Expose application using Service
+- Troubleshoot CrashLoopBackOff
+
+### Terraform
+- Create EC2 instance using Terraform
+- Create reusable Terraform modules
+
+### Jenkins
+- Create CI/CD pipeline for Java/Python app
+
+### AWS
+- Design a highly available web application
+
+---
+
+# Top 10 Topics to Master First
+
+1. Linux
+2. Networking
+3. Git
+4. Shell Scripting
+5. Docker
+6. Kubernetes
+7. AWS
+8. Terraform
+9. Jenkins/GitHub Actions
+10. Monitoring & Troubleshooting
+
+---
+
+# Interview Weightage
+
+| Topic | Weightage |
+|----------|----------|
+| Linux | 15% |
+| Networking | 10% |
+| Git | 5% |
+| Shell Scripting | 10% |
+| Docker | 10% |
+| Kubernetes | 20% |
+| AWS | 10% |
+| Terraform | 10% |
+| CI/CD | 5% |
+| Monitoring & Troubleshooting | 5% |
