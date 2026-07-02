@@ -1,0 +1,451 @@
+# AI Engineer Interview Roadmap (2–3 YOE)
+
+## 1. Python
+
+### Core Python
+- Variables & Data Types
+- Functions
+- OOPs
+- Exception Handling
+- File Handling
+- Modules & Packages
+- Virtual Environments
+
+### Advanced Python
+- Decorators
+- Generators
+- Iterators
+- Context Managers
+- Async Programming
+- Multithreading
+- Multiprocessing
+
+### DSA
+- Arrays
+- Strings
+- Linked Lists
+- Stacks
+- Queues
+- Hash Maps
+- Trees
+- Graphs
+- Searching
+- Sorting
+- Time Complexity
+
+---
+
+# 2. Mathematics for AI
+
+## Linear Algebra
+- Vectors
+- Matrices
+- Eigenvalues
+- Eigenvectors
+
+## Statistics
+- Mean
+- Median
+- Mode
+- Variance
+- Standard Deviation
+
+## Probability
+- Bayes Theorem
+- Conditional Probability
+- Probability Distributions
+
+---
+
+# 3. Machine Learning
+
+## Supervised Learning
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- XGBoost
+
+## Unsupervised Learning
+- K-Means
+- Hierarchical Clustering
+- PCA
+
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+
+## Concepts
+- Overfitting
+- Underfitting
+- Bias-Variance Tradeoff
+- Cross Validation
+
+---
+
+# 4. Deep Learning
+
+## Neural Networks
+- Perceptron
+- MLP
+- Backpropagation
+- Gradient Descent
+
+## Activation Functions
+- ReLU
+- Sigmoid
+- Tanh
+- Softmax
+
+## Architectures
+- CNN
+- RNN
+- LSTM
+- GRU
+
+## Frameworks
+- PyTorch
+- TensorFlow
+- Keras
+
+---
+
+# 5. Natural Language Processing (NLP)
+
+## Fundamentals
+- Tokenization
+- Stemming
+- Lemmatization
+- NER
+- POS Tagging
+
+## Embeddings
+- Word2Vec
+- GloVe
+- FastText
+- Sentence Transformers
+
+## Transformers
+- Encoder
+- Decoder
+- Self Attention
+- Multi-Head Attention
+
+---
+
+# 6. Generative AI
+
+## LLM Fundamentals
+- GPT
+- BERT
+- T5
+- Llama
+- Mistral
+- Gemma
+
+## Concepts
+- Tokens
+- Context Window
+- Temperature
+- Top-K
+- Top-P
+- Hallucinations
+
+## Fine-Tuning
+- SFT
+- Instruction Tuning
+- RLHF
+- LoRA
+- QLoRA
+
+---
+
+# 7. Prompt Engineering
+
+## Techniques
+- Zero Shot
+- One Shot
+- Few Shot
+- Chain of Thought
+- ReAct
+- Self Consistency
+- Tree of Thoughts
+
+## Structured Outputs
+- JSON Output
+- Function Calling
+- Tool Calling
+
+---
+
+# 8. RAG (Most Important)
+
+## Fundamentals
+- Chunking
+- Embeddings
+- Retrieval
+- Generation
+
+## Vector Databases
+- Pinecone
+- FAISS
+- ChromaDB
+- Qdrant
+- Weaviate
+
+## Retrieval Techniques
+- Similarity Search
+- Hybrid Search
+- Metadata Filtering
+- Re-ranking
+
+## Evaluation
+- RAGAS
+- DeepEval
+- TruLens
+
+---
+
+# 9. AI Agents
+
+## Concepts
+- Agent Architecture
+- Planning
+- Reflection
+- Memory
+- Tool Usage
+
+## Frameworks
+- LangGraph
+- CrewAI
+- AutoGen
+- OpenAI Agents SDK
+
+## Multi-Agent Systems
+- Supervisor Agent
+- Worker Agents
+- Agent Orchestration
+
+---
+
+# 10. LangChain
+
+## Core Components
+- Prompt Templates
+- Chains
+- LCEL
+- Retrievers
+- Agents
+- Tools
+- Memory
+- Output Parsers
+
+---
+
+# 11. LangGraph
+
+## Fundamentals
+- StateGraph
+- Nodes
+- Edges
+- State Management
+
+## Advanced
+- Conditional Routing
+- Human-in-the-Loop
+- Checkpointing
+- Persistence
+- Multi-Agent Workflows
+
+---
+
+# 12. FastAPI
+
+## API Development
+- REST APIs
+- Async APIs
+- Streaming Responses
+- Authentication
+- Middleware
+
+---
+
+# 13. Databases
+
+## SQL
+- PostgreSQL
+- MySQL
+
+### Topics
+- Joins
+- Indexing
+- Query Optimization
+
+## NoSQL
+- MongoDB
+- Redis
+
+## Vector Databases
+- Pinecone
+- Qdrant
+- ChromaDB
+
+---
+
+# 14. MLOps
+
+## Experiment Tracking
+- MLflow
+- Weights & Biases
+
+## Data Versioning
+- DVC
+
+## Pipelines
+- Kubeflow
+- Airflow
+
+## Deployment
+- BentoML
+- KServe
+- Seldon Core
+
+---
+
+# 15. LLMOps
+
+## Deployment
+- FastAPI
+- Docker
+- Kubernetes
+- Helm
+
+## Model Serving
+- vLLM
+- TGI
+- Ollama
+
+## Monitoring
+- LangSmith
+- Phoenix
+- Prometheus
+- Grafana
+
+---
+
+# 16. Cloud
+
+## AWS
+- EC2
+- EKS
+- S3
+- IAM
+- Bedrock
+- SageMaker
+
+## Azure
+- Azure OpenAI
+- AKS
+
+## GCP
+- Vertex AI
+- GKE
+
+---
+
+# 17. AI System Design
+
+## Design Problems
+- Enterprise RAG Assistant
+- AI Copilot
+- Customer Support AI
+- Healthcare AI Assistant
+- Insurance AI Assistant
+- Multi-Agent Research Assistant
+
+## Architecture Components
+- API Gateway
+- FastAPI
+- Redis
+- PostgreSQL
+- Vector Database
+- LLM Gateway
+- Monitoring Layer
+
+---
+
+# 18. AI Security
+
+## Topics
+- Prompt Injection
+- Jailbreaking
+- PII Protection
+- Data Leakage
+- Guardrails
+- Content Moderation
+
+---
+
+# 19. Production Scenarios
+
+## Frequently Asked
+
+### RAG
+- How do you improve retrieval accuracy?
+- How do you reduce hallucinations?
+- How do you select chunk size?
+- How do you evaluate RAG?
+
+### AI Agents
+- How do agents maintain memory?
+- How do multi-agent systems communicate?
+
+### LLMOps
+- How do you deploy LLMs at scale?
+- How do you monitor production AI systems?
+- How do you reduce inference cost?
+
+### System Design
+- Design an enterprise chatbot.
+- Design an AI copilot.
+- Design a multi-agent platform.
+
+---
+
+# Top 15 Topics to Master First
+
+1. Python
+2. Machine Learning
+3. Deep Learning
+4. NLP
+5. Transformers
+6. LLM Fundamentals
+7. Prompt Engineering
+8. RAG
+9. Vector Databases
+10. LangChain
+11. LangGraph
+12. AI Agents
+13. FastAPI
+14. MLOps + LLMOps
+15. AI System Design
+
+---
+
+# Interview Weightage
+
+| Topic | Weightage |
+|---------|-----------|
+| Python | 15% |
+| ML & DL | 20% |
+| NLP & Transformers | 10% |
+| LLM Fundamentals | 10% |
+| RAG | 15% |
+| LangChain/LangGraph | 10% |
+| AI Agents | 5% |
+| FastAPI | 5% |
+| MLOps/LLMOps | 5% |
+| System Design | 5% |
